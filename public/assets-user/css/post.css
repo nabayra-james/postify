@@ -1,0 +1,24 @@
+img.rounded-circle-profile {
+    border: 2px solid #ddd;
+    margin-top: 15px;
+    border-radius: 50%;
+}
+
+.dropdown-menu {
+    min-width: 100px;
+}
+
+#caption {
+    resize: none;
+    overflow: hidden;
+}
+
+#caption:focus {
+    box-shadow: none;
+    border-color: transparent;
+}
+
+.form-check-label {
+    margin-right: 9rem;
+}
+
