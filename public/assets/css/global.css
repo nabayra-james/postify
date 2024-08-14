@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --small: "Open Sans";
+    --font-inter: Inter;
+    --font-itf-devanagari-marathi: "ITF Devanagari Marathi";
+    --font-fontawesome: FontAwesome;
+    --font-secular-one: "Secular One";
+  
+    /* font sizes */
+    --primarytext-size: 14px;
+    --font-size-5xl: 24px;
+    --font-size-base: 16px;
+    --font-size-6xl: 25px;
+    --small-size: 12px;
+    --font-size-lg: 18px;
+    --font-size-13xl: 32px;
+    --font-size-xl: 20px;
+    --font-size-5xs: 8px;
+    --font-size-3xs: 10px;
+    --font-size-2xs: 11px;
+    --font-size-11xl: 30px;
+    --font-size-mini: 15px;
+  
+    /* Colors */
+    --background-light: #fff;
+    --color-royalblue-100: #135fd0;
+    --color-royalblue-200: #094bca;
+    --color-black: #000;
+    --color-gainsboro-100: #e2e2e2;
+    --color-gainsboro-200: #d9d9d9;
+    --color-gainsboro-300: rgba(217, 217, 217, 0.34);
+    --color-gainsboro-400: rgba(217, 217, 217, 0.1);
+    --color-red: #ff0000;
+    --color-mediumpurple: #6f74dd;
+    --color-gray-90: #3f3f3f;
+    --text-jnt-primary-text-dark-color: #343434;
+    --color-darkslategray-100: #223140;
+    --color-gray-100: #828282;
+    --color-gray-100: #202020;
+    --color-gray-200: #1d1d1d;
+    --color-gray-300: rgba(0, 0, 0, 0.41);
+    --schemas-jnt-primary-color: #3949ab;
+    --color-darkslateblue-100: #264a8f;
+    --color-mediumslateblue-100: #1361f5;
+    --blue-base: #004ce6;
+    --color-mediumslateblue-200: rgba(19, 97, 245, 0.1);
+    --color-goldenrod-100: rgba(236, 178, 45, 0.1);
+    --color-gray-80: #5f5f5f;
+    --color-dimgray-100: #535558;
+    --schemas-jnt-secondary-dark-color-old: #e6e9fa;
+    --control-jnt-control-border-color: #d0d0d0;
+    --color-lightgray-100: rgba(204, 204, 204, 0.8);
+    --purple: #702dff;
+    --color-blueviolet-100: rgba(112, 45, 255, 0.2);
+    --color-darkgray-100: #a8a8a8;
+    --color-gray-60: #9e9e9e;
+    --color-crimson: #f13e3e;
+    --color-whitesmoke: #f9f9f9;
+  
+    /* Gaps */
+    --gap-4xs: 9px;
+    --gap-3xs: 10px;
+    --gap-10xs: 3px;
+    --gap-base: 16px;
+    --gap-5xs: 8px;
+    --gap-9xs: 4px;
+    --gap-14xl: 33px;
+    --gap-xs: 12px;
+    --gap-29xl: 48px;
+    --gap-xl: 20px;
+  
+    /* Paddings */
+    --padding-3xs: 10px;
+    --padding-8xl: 27px;
+    --padding-7xs: 6px;
+    --padding-10xs: 3px;
+    --padding-5xs: 8px;
+    --padding-13xl: 32px;
+    --padding-5xl: 24px;
+    --padding-2xs: 11px;
+    --padding-9xs: 4px;
+    --padding-xs: 12px;
+    --padding-base: 16px;
+    --padding-xl: 20px;
+  
+    /* Border radiuses */
+    --br-3xs: 10px;
+    --br-8xs: 5px;
+    --br-41xl: 60px;
+    --br-13xl: 32px;
+    --br-smi-3: 12.3px;
+    --br-11xs: 2px;
+    --br-5xl: 24px;
+    --br-21xl: 40px;
+    --br-9xs: 4px;
+    --br-5xs: 8px;
+    --br-xl: 20px;
+    --br-31xl: 50px;
+    --br-xs: 12px;
+    --br-mini: 15px;
+  
+    /* Effects */
+    --cards-long-default: 0px 14px 42px rgba(8, 15, 52, 0.06);
+  }
+  

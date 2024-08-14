@@ -1,0 +1,433 @@
+body {
+    font-family: 'Arial', 'Roboto', 'Comic sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.welcome,
+.welcome-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.welcome {
+    align-self: stretch;
+    position: relative;
+    width: 107px;
+    flex-shrink: 0;
+    font-weight: bold;
+}
+
+.welcome-wrapper {
+    /* height: 37px; */
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 0 var(--padding-13xl);
+    box-sizing: border-box;
+    font-size: var(--font-size-5xl);
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.input-container input {
+    flex: 1;
+    padding: 8px;
+    box-sizing: border-box;
+    padding-left: 50px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    height: 50px;
+}
+
+.input-container label {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    transition: opacity 0.3s ease;
+}
+
+.input-container label img {
+    margin-right: 10px;
+    max-width: 24px;
+    max-height: 24px;
+    border-right: 1px solid #ccc;
+    padding-right: 10px;
+}
+
+.input-container label span {
+    margin-right: 20px;
+    color: #999;
+    transition: transform 0.3s ease;
+}
+
+.input-container.username input:focus + label span {
+    transform: translateX(3px);
+}
+
+.input-container.password input:focus + label span {
+    transform: translateX(3px);
+}
+
+.jnt-input {
+    align-self: stretch;
+    position: relative;
+    height: 40px;
+}
+
+.view-icon {
+    position: absolute;
+    top: calc(50% - 12px);
+    right: 8px;
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+}
+
+.forgot-password {
+    position: relative;
+    color: var(--color-mediumpurple);
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+.jnt-stack {
+    align-self: stretch;
+    height: 145px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: var(--gap-base);
+    color: var(--color-gray-100);
+}
+
+.jnt-button-wrapper,
+.button-wrapper {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.login-button,
+.google-button,
+.jnt-button {
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.jnt-button-wrapper,
+.button-wrapper {
+    align-self: stretch;
+    flex-direction: row;
+    align-items: center;
+}
+
+.login-button {
+    background-color: var(--schemas-jnt-primary-color);
+    color: white;
+    font-size: var(--primarytext-size);
+    font-family: var(--small);
+    border: 1px solid var(--schemas-jnt-primary-color);
+    border-radius: var(--br-21xl);
+    padding: 0 var(--padding-5xl);
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.likha-button,
+.hypefive-button {
+    background-color: #fff;
+    color: #3949ab;
+    font-size: var(--primarytext-size);
+    font-family: var(--small);
+    border: 1px solid var(--schemas-jnt-primary-color);
+    border-radius: var(--br-21xl);
+    padding: 0 var(--padding-5xl);
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup-button {
+    background-color: #fff;
+    color: #3949ab;
+    font-size: var(--primarytext-size);
+    font-family: var(--small);
+    border: 1px solid var(--schemas-jnt-primary-color);
+    border-radius: var(--br-21xl);
+    padding: 0 var(--padding-5xl);
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.frame-child6 {
+    flex: 1;
+    position: relative;
+    background-color: var(--schemas-jnt-secondary-dark-color-old);
+    height: 1px;
+}
+
+.rectangle-parent9 {
+    width: 215px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-9xs);
+    text-align: left;
+    color: var(--color-gray-100);
+}
+
+.likha-logo,
+.hypefive-logo {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+.button16,
+.frame-container,
+.have-no-account-yet-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.frame-container {
+    align-items: center;
+    gap: var(--gap-5xs);
+}
+
+.have-no-account-yet-parent {
+    align-items: flex-start;
+    text-align: center;
+    color: var(--schemas-jnt-primary-color);
+}
+
+.have-no-account-yet-parent {
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-base);
+    text-align: left;
+    color: var(--color-gray-100);
+}
+
+.buttons-stack,
+.frame-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.frame-group {
+    align-self: stretch;
+    gap: 24px;
+}
+
+.button-container {
+    flex: 1;
+}
+
+.frame-group {
+    align-self: stretch;
+    gap: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons-stack {
+    flex: 1;
+    overflow: hidden;
+}
+
+.buttons-stack-wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--background-light);
+}
+
+.likha-button,
+.hypefive-button {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    overflow: hidden;
+}
+
+.likha-button.left {
+    border-top-left-radius: var(--br-21xl);
+    border-bottom-left-radius: var(--br-21xl);
+    border: 1px solid var(--schemas-jnt-primary-color);
+}
+
+.hypefive-button.right {
+    border-top-right-radius: var(--br-21xl);
+    border-bottom-right-radius: var(--br-21xl);
+    border: 1px solid var(--schemas-jnt-primary-color);
+    margin-left: 8px;
+}
+
+.likha-button .content14,
+.hypefive-button .content14 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.likha-button .content14 img,
+.hypefive-button .content14 img {
+    margin-right: 8px;
+    max-width: 24px;
+    max-height: 24px;
+    border-right: none;
+    padding-right: 1px;
+}
+
+.login-button,
+.likha-button,
+.hypefive-button,
+.signup-button {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.likha-button:hover,
+.hypefive-button:hover,
+.signup-button:hover {
+    background-color: var(--schemas-jnt-primary-color);
+    color: white;
+}
+
+.login-button:hover {
+    background-color: #333B91;
+}
+
+.likha-button {
+    margin-right: 5px;
+}
+
+.hypefive-button {
+    margin-left: 5px;
+}
+
+.form-child,
+.form2 {
+    position: absolute;
+    top: 0;
+    height: 743px;
+}
+
+.form2 {
+    left: 732px;
+    border-radius: 0 var(--br-5xl) var(--br-5xl) 0;
+    background-color: var(--background-light);
+    width: 486px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-13xl) 64px;
+    box-sizing: border-box;
+    gap: 32px;
+}
+
+.form-child {
+    left: 0;
+    background: linear-gradient(180deg, #a3a2c7, #205a8f);
+    width: 732px;
+}
+
+.form-item {
+    position: absolute;
+    top: 202px;
+    left: 248px;
+    border-radius: 50%;
+    background-color: #00227b;
+    width: 221px;
+    height: 221px;
+    opacity: 0.6;
+}
+
+.welcome-aboard-my {
+    position: absolute;
+    top: 480px;
+    left: 203px;
+    font-size: var(--font-size-5xl);
+    line-height: 200%;
+    font-weight: 600;
+    color: var(--background-light);
+    text-align: center;
+}
+
+.form-child .logo-postify {
+    position: absolute;
+    width: 150px;
+    height: 60px;
+    top: 20px;
+    left: 20px;
+    object-fit: cover;
+}
+
+.form-child .astronaut {
+    position: absolute;
+    top: 210px;
+    left: 245px;
+    width: 240px;
+    height: 240px;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: var(--br-5xl);
+    box-shadow: #fff;
+    width: 1218px;
+    height: 743px;
+    overflow: hidden;
+}
+
+.registration-page {
+    position: relative;
+    background-color: #F6F6F6;
+    width: 100%;
+    height: 973px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--primarytext-size);
+    font-family: var(--small);
+}
